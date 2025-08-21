@@ -215,7 +215,7 @@ const RoadmapInterativo: React.FC = () => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-300 text-sm">Concluído</p>
-                <p className="text-2xl font-bold text-green-400">2/6</p>
+                <p className="text-2xl font-bold text-green-400">0/6</p>
               </div>
               <CheckCircle className="w-8 h-8 text-green-400" />
             </div>
@@ -225,7 +225,7 @@ const RoadmapInterativo: React.FC = () => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-300 text-sm">Em Progresso</p>
-                <p className="text-2xl font-bold text-blue-400">1/6</p>
+                <p className="text-2xl font-bold text-blue-400">0/6</p>
               </div>
               <Circle className="w-8 h-8 text-blue-400 animate-pulse" />
             </div>
@@ -235,7 +235,7 @@ const RoadmapInterativo: React.FC = () => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-gray-300 text-sm">Planejado</p>
-                <p className="text-2xl font-bold text-gray-400">3/6</p>
+                <p className="text-2xl font-bold text-gray-400">6/6</p>
               </div>
               <Rocket className="w-8 h-8 text-gray-400" />
             </div>
